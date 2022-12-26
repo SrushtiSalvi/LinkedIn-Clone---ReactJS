@@ -1,0 +1,7 @@
+.profile_header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+  font-weight: normal;
+  background-color: brown;
+}

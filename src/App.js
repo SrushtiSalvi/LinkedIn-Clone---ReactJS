@@ -9,6 +9,8 @@ import Widgets from './components/Widgets';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from './features/userSlice';
 import { auth } from './db';
+import { Outlet, Route, Routes } from 'react-router-dom';
+import Profile from './components/Profile';
 
 
 function App() {
